@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:MainViewController.swift">
+   </FileRef>
+   <FileRef
       location = "group:Finance_app.xcodeproj">
    </FileRef>
    <FileRef

@@ -8,17 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		580DF96D9716673D55C2F54C /* Pods_Finance_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BB84122EFC68100F8965847 /* Pods_Finance_app.framework */; };
+		CE6775DE226566EC0056222F /* TransactionDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6775DD226566EC0056222F /* TransactionDataSource.swift */; };
 		CE8A170222207B08005C92E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8A170122207B08005C92E7 /* AppDelegate.swift */; };
 		CE8A170422207B08005C92E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8A170322207B08005C92E7 /* ViewController.swift */; };
 		CE8A170722207B08005C92E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE8A170522207B08005C92E7 /* Main.storyboard */; };
 		CE8A170922207B09005C92E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8A170822207B09005C92E7 /* Assets.xcassets */; };
 		CE8A170C22207B09005C92E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE8A170A22207B09005C92E7 /* LaunchScreen.storyboard */; };
 		CE8A171422207EF1005C92E7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE8A171322207EF1005C92E7 /* GoogleService-Info.plist */; };
+		CE9FFB52224E97CB00D25384 /* TransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9FFB51224E97CB00D25384 /* TransactionsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4BB84122EFC68100F8965847 /* Pods_Finance_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Finance_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AE4001CDC935104A085C752 /* Pods-Finance_app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Finance_app.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Finance_app/Pods-Finance_app.debug.xcconfig"; sourceTree = "<group>"; };
+		CE6775DD226566EC0056222F /* TransactionDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionDataSource.swift; sourceTree = "<group>"; };
 		CE8A16FE22207B08005C92E7 /* Finance_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Finance_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE8A170122207B08005C92E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE8A170322207B08005C92E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -27,6 +30,7 @@
 		CE8A170B22207B09005C92E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE8A170D22207B09005C92E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE8A171322207EF1005C92E7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CE9FFB51224E97CB00D25384 /* TransactionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsViewController.swift; sourceTree = "<group>"; };
 		F811439A31CFB645320CA5F0 /* Pods-Finance_app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Finance_app.release.xcconfig"; path = "Pods/Target Support Files/Pods-Finance_app/Pods-Finance_app.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -87,6 +91,8 @@
 				CE8A170822207B09005C92E7 /* Assets.xcassets */,
 				CE8A170A22207B09005C92E7 /* LaunchScreen.storyboard */,
 				CE8A170D22207B09005C92E7 /* Info.plist */,
+				CE9FFB51224E97CB00D25384 /* TransactionsViewController.swift */,
+				CE6775DD226566EC0056222F /* TransactionDataSource.swift */,
 			);
 			path = Finance_app;
 			sourceTree = "<group>";
@@ -245,6 +251,8 @@
 			files = (
 				CE8A170422207B08005C92E7 /* ViewController.swift in Sources */,
 				CE8A170222207B08005C92E7 /* AppDelegate.swift in Sources */,
+				CE9FFB52224E97CB00D25384 /* TransactionsViewController.swift in Sources */,
+				CE6775DE226566EC0056222F /* TransactionDataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
